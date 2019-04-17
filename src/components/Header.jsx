@@ -5,24 +5,24 @@ function Header(){
 
 
     return(
-      <div className="main">
-        <div className="logo">
-          <a><img src={require(`../assets/images/LOGO.jpg`)}></img></a>
-        </div>
-        <div className="links">
-          <a>MODEL S</a>
-          <a>MODEL 3</a>
-          <a>MODEL X</a>
-          <a>MODEL Y</a>
-          <a>ROADSTER</a>
-          <a>ENERGY</a>
-        </div>
-        <div className="shop">
-          <a>SHOP</a>
-          <a>SIGN UP</a>
-          <a>|||</a>
-        </div>
-        <style jsx>{`
+        <div className="main">
+            <div className="logo">
+                <a><img src={require('../assets/images/LOGO.jpg')}></img></a>
+            </div>
+            <div className="links">
+                <a>MODEL S</a>
+                <a>MODEL 3</a>
+                <a>MODEL X</a>
+                <a>MODEL Y</a>
+                <a>ROADSTER</a>
+                <a>ENERGY</a>
+            </div>
+            <div className="shop">
+                <a>SHOP</a>
+                <a>SIGN UP</a>
+                <a>|||</a>
+            </div>
+            <style jsx>{`
             .main {
               position: absolute;
               width: 100%;
@@ -36,6 +36,7 @@ function Header(){
             img {
               height: 30px;
               margin-left: 10px;
+              
             }
             .links {
               display: flex;
@@ -54,7 +55,7 @@ function Header(){
 
         `}</style>
 
-      </div>
+        </div>
 
 
 
