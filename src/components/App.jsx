@@ -1,23 +1,52 @@
 import React from 'react';
-import TicketList from './TicketList';
-import NewTicketForm from './NewTicketForm';
+
 import Header from './Header';
+import TopBanner from './TopBanner';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 
+
+
+
+
+
+
+
+
+
+
 function App() {
+
+
+
+  var TopoBano = {
+      display: 'absolute',
+
+  }
+
+
+
+
     return (
         <div>
-            <Header/>
-            <Switch>
-                <Route exact path='/' component={TicketList} />
-                <Route path='/newticket' component={NewTicketForm} />
-                <Route component={Error404} />
-            </Switch>
+            <Header style={TopoBano}/>
+            <TopBanner />
+            <style jsx global>{`
+              body {
+                margin: 0;
+                padding: 0;
+              }
+
+              // Header {
+              //   position: static;
+              // }
+
+          `}</style>
+          <style jsx>{`
+        `}</style>
         </div>
     );
 }
-
 
 
 export default App;
