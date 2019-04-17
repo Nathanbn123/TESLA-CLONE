@@ -12,19 +12,19 @@ function CareerNav(){
 
 
     return (
-      <div className='TrveContainer'>
-        <div className="container">
-            <h4>TESTING</h4>
-            <div>
-                <a>ABOUT</a>
-                <a>CAREER</a>
-                <a>CONTACT</a>
-                <a>LEGAL</a>
-                <a>INVESTORS</a>
-                <a>SUPPLIERS</a>
+        <div className='TrveContainer'>
+            <div className="container">
+                <h4>TESTING</h4>
+                <div>
+                    <a>ABOUT</a>
+                    <a>CAREER</a>
+                    <a>CONTACT</a>
+                    <a>LEGAL</a>
+                    <a>INVESTORS</a>
+                    <a>SUPPLIERS</a>
+                </div>
             </div>
-          </div>
-          <hr></hr>
+            <hr></hr>
             <style jsx>{`
 
                 h4 {

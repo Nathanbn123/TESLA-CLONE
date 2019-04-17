@@ -3,10 +3,10 @@ import React from 'react';
 function Button(){
 
 
-  return (
-    <div>
-      <button>SEARCH ALL JOBS</button>
-      <style jsx>{`
+    return (
+        <div>
+            <button>SEARCH ALL JOBS</button>
+            <style jsx>{`
           div {
             text-align: center;
           }
@@ -25,9 +25,9 @@ function Button(){
             cursor: pointer;
           }
             `}</style>
-    </div>
+        </div>
 
-  )
+    );
 }
 
 export default Button;

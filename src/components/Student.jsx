@@ -6,11 +6,11 @@ function Student() {
 
 
 
-  return(
-    <div>
-      <h2>University Students</h2>
-      <p>If you're a student with an interest in accelerating the world’s transition to sustainable energy, then apply for one of our intern/co-op positions.</p>
-      <a href="#">Browse Openings</a>
+    return(
+        <div>
+            <h2>University Students</h2>
+            <p>If you're a student with an interest in accelerating the world’s transition to sustainable energy, then apply for one of our intern/co-op positions.</p>
+            <a href="#">Browse Openings</a>
 
 
 
@@ -20,7 +20,7 @@ function Student() {
 
 
 
-    <style jsx>{`
+            <style jsx>{`
         div {
           height: 232px;
           background-color: #eee;
@@ -57,8 +57,8 @@ function Student() {
 
         `}</style>
 
-    </div>
-  )
+        </div>
+    );
 }
 
-export default Student
+export default Student;

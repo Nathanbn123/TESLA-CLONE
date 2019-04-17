@@ -5,7 +5,11 @@ import CareerNav from './CareerNav';
 function TopBanner(){
     return (
         <div>
-            <img src={require('../assets/images/tesla.jpg')}></img>
+
+            <video id="background-video" loop autoPlay>
+                <source src={require('../assets/images/vid.mp4')} type="video/mp4" />
+
+            </video>
             <CareerNav/>
             <style jsx>{`
             img{

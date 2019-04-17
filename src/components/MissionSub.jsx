@@ -4,13 +4,13 @@ import PropTypes from 'prop-types';
 
 
 function MissionSub(props){
-  return(
-    <div>
-      <img src={require(`../assets/images/${props.image}`)}></img>
-      <h4>{props.header}</h4>
-      <p>{props.description}</p>
+    return(
+        <div>
+            <img src={require(`../assets/images/${props.image}`)}></img>
+            <h4>{props.header}</h4>
+            <p>{props.description}</p>
 
-      <style jsx> {`
+            <style jsx> {`
         img {
           width: 100%;
 
@@ -30,15 +30,15 @@ function MissionSub(props){
 
 
 
-</div>
+        </div>
 
-  );
+    );
 }
 
 MissionSub.propTypes = {
-  image: PropTypes.string,
-  header: PropTypes.string,
-  description: PropTypes.string
-}
+    image: PropTypes.string,
+    header: PropTypes.string,
+    description: PropTypes.string
+};
 
 export default MissionSub;

@@ -7,20 +7,20 @@ function Working(){
 
 
 
-  return(
-    <div className="">
-    <hr></hr>
-    <h2>Working at Tesla</h2>
-    <p>At Tesla, we're solving the world's most important problems with talented individuals who share our passion to change the world. Our culture is fast-paced, energetic and innovative. Headquartered in the San Francisco Bay Area with office locations around the world, we work to build an inclusive environment in which everyone, regardless of gender, race, religion, age, or background, can do their best work.</p>
+    return(
+        <div className="">
+            <hr></hr>
+            <h2>Working at Tesla</h2>
+            <p>At Tesla, we're solving the world's most important problems with talented individuals who share our passion to change the world. Our culture is fast-paced, energetic and innovative. Headquartered in the San Francisco Bay Area with office locations around the world, we work to build an inclusive environment in which everyone, regardless of gender, race, religion, age, or background, can do their best work.</p>
 
-    <div className='grid'>
-      <img className="test" src={require(`../assets/images/bikemin.jpg`)}></img>
-      <img className="test2" src={require(`../assets/images/workgrils.jpg`)}></img>
-      <img className="test3" src={require(`../assets/images/tire.jpg`)}></img>
-      <img className="test4" src={require(`../assets/images/workbois.jpg`)}></img>
-    </div>
+            <div className='grid'>
+                <img className="test" src={require('../assets/images/bikemin.jpg')}></img>
+                <img className="test2" src={require('../assets/images/workgrils.jpg')}></img>
+                <img className="test3" src={require('../assets/images/tire.jpg')}></img>
+                <img className="test4" src={require('../assets/images/workbois.jpg')}></img>
+            </div>
 
-      <style jsx>{`
+            <style jsx>{`
 
 
           hr {
@@ -85,9 +85,9 @@ function Working(){
         `}</style>
 
 
-    </div>
+        </div>
 
-  )
+    );
 }
 
- export default Working;
+export default Working;
