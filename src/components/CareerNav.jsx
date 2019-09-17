@@ -6,18 +6,17 @@ import { Link } from 'react-router-dom';
 
 function CareerNav(){
 
-
-
-
-
+  const selectedLink = {
+    opacity: '.5',
+  }
 
     return (
         <div className='TrveContainer'>
             <div className="container">
-                <h4>TESTING</h4>
+                <h4>CAREERS</h4>
                 <div className="linkContainer">
                     <a>ABOUT</a>
-                    <a>CAREER</a>
+                    <a style={selectedLink}>CAREER</a>
                     <a>CONTACT</a>
                     <a>LEGAL</a>
                     <a>INVESTORS</a>
@@ -31,14 +30,22 @@ function CareerNav(){
                   width: 20%;
                   padding-right: 9em;
                   font-weight: lighter;
+                  font-size: 20px;
                 }
                 linkContainer {
-                  cursor: pointer;
+                  transition: color 100ms linear;
                 }
                 a {
-                  font-size: 12px;
+                  font-size: 13px;
                   padding: 1em;
                   cursor: pointer;
+                  transition: color 100ms linear;
+                }
+
+                a:hover {
+                  opacity: .5;
+                  transition: color 100ms linear;
+
                 }
 
 
@@ -57,9 +64,8 @@ function CareerNav(){
                   overflow: hidden;
                   position: absolute;
                   top: 80px;
-                  width: 90vw;
-
-                  left: 5%;
+                  width: 70vw;
+                  left: 15%;
 
                 }
 

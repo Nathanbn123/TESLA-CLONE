@@ -30,29 +30,24 @@ function App() {
 
     return (
         <div>
-            <div className="appContainer">
-                <Header/>
-                <TopBanner />
-                <Button />
-                <Mission />
-                <Working/>
-                <Student/>
-                <Footer/>
-            </div>
+            <Header/>
+            <TopBanner />
+            <Button />
+            <Mission />
+            <Working/>
+            <Student/>
+            <Footer/>
             <style jsx global>{`
-              .appContainer {
-                width: 100vw;
-                overflow: hidden;
-              }
               body {
-                overflow: hidden;
+
                 margin: 0;
                 padding: 0;
-
                 font-family: "Helvetica", "Arial", "sans-serif";
               }
 
-
+              // Header {
+              //   position: static;
+              // }
 
           `}</style>
             <style jsx>{`

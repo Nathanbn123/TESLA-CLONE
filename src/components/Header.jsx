@@ -40,12 +40,14 @@ function Header(){
 
             }
             .links {
+              cursor: pointer;
               display: flex;
               flex-dirrection: row;
               justify-content: space-between;
               align-items: center;
             }
             a {
+              cursor: pointer;
               font-size: 0.8em;
               padding: 5px;
               color: white;
