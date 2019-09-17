@@ -1,5 +1,5 @@
 {
-  "name": "react-help-queue",
+  "name": "Tesla-Clone",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "lint": "eslint src/** src/**/**; exit 0",
     "fix": "eslint src/** src/**/** --fix; exit 0"
   },
-  "author": "Kimberly McConnell",
+  "author": "Kimberly McConnell, Nathan Nielson",
   "license": "ISC",
   "dependencies": {
     "prop-types": "^15.5.10",

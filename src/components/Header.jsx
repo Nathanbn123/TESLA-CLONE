@@ -24,6 +24,7 @@ function Header(){
             </div>
             <style jsx>{`
             .main {
+              overflow: hidden;
               position: absolute;
               width: 100%;
               height: 52px;
@@ -36,7 +37,7 @@ function Header(){
             img {
               height: 30px;
               margin-left: 10px;
-              
+
             }
             .links {
               display: flex;

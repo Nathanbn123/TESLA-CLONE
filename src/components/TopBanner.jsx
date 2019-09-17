@@ -12,8 +12,8 @@ function TopBanner(){
             </video>
             <CareerNav/>
             <style jsx>{`
-            img{
-              width: 100%;
+            video{
+              width: 100vw;
             }
               `}</style>
         </div>

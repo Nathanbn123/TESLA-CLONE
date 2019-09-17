@@ -15,7 +15,7 @@ function CareerNav(){
         <div className='TrveContainer'>
             <div className="container">
                 <h4>TESTING</h4>
-                <div>
+                <div className="linkContainer">
                     <a>ABOUT</a>
                     <a>CAREER</a>
                     <a>CONTACT</a>
@@ -32,15 +32,18 @@ function CareerNav(){
                   padding-right: 9em;
                   font-weight: lighter;
                 }
-
+                linkContainer {
+                  cursor: pointer;
+                }
                 a {
                   font-size: 12px;
                   padding: 1em;
-
+                  cursor: pointer;
                 }
 
 
                 .container {
+                  overflow: hidden;
                   display: flex;
                   flex-direction: row;
                   align-items: center;
@@ -51,9 +54,10 @@ function CareerNav(){
                 }
 
                 .TrveContainer {
+                  overflow: hidden;
                   position: absolute;
                   top: 80px;
-                  width: 90%;
+                  width: 90vw;
 
                   left: 5%;
 
