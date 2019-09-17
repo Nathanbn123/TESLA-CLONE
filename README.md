@@ -3,7 +3,7 @@
 
 
 _Published_ **May 2019**<br>
-_Authors_ **Nathan Nielson,**
+_Authors_ **Nathan Nielson, Kimberly McConnell**
 
 ### Description
 
@@ -27,4 +27,4 @@ A visual clone of the Tesla company's careers page! (https://www.tesla.com/caree
 
 [MIT](./LICENSE.txt)
 
-Copyright (c) 2019 Nate Wessels, Nathan Nielson, Nayomi Morita, Nelia Terrazas
+Copyright (c) 2019 Nathan Nielson, Kimberly McConnell
