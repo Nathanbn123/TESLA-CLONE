@@ -28,7 +28,7 @@ function Header(){
               position: absolute;
               width: 100%;
               height: 52px;
-              background-color: rgba(0, 0, 0, 0.3);
+              background-color: rgba(0, 0, 0, 0.6);
               display: flex;
               flex-dirrection: row;
               justify-content: space-between;
@@ -49,7 +49,7 @@ function Header(){
             a {
               cursor: pointer;
               font-size: 0.8em;
-              padding: 5px;
+              padding: 10px;
               color: white;
               font-family: "Helvetica", "Arial", "sans-serif";
             }
