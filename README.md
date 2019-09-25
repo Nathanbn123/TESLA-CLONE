@@ -4,10 +4,12 @@
 
 _Published_ **May 2019**<br>
 _Authors_ **Nathan Nielson, Kimberly McConnell**
-
 ### Description
 
+
 A visual clone of the Tesla company's careers page! (https://www.tesla.com/careers)
+
+![Our Site](/src/screenshots/screenShot.png)
 
 ### Installation
 
