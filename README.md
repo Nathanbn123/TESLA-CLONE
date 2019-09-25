@@ -9,7 +9,7 @@ _Authors_ **Nathan Nielson, Kimberly McConnell**
 
 A visual clone of the Tesla company's careers page! (https://www.tesla.com/careers)
 
-![Our Site](/src/screenshots/screenShot.png)
+![Our Site](/src/screenshots/siteImage.png)
 
 ### Installation
 
